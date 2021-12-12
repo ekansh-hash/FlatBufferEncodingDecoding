@@ -9,7 +9,8 @@ There are few prerequistes for compiling/building the application :
 
 * Clone the repository https://github.com/ekansh-hash/FlatBufferEncodingDecoding
 * Clone the submodule flatbuffers under the deps folder
-* flatbuffers needs to be compiled first for c# (Decoder). To compile the library for c#, Change the path to deps\flatbuffers\net\FlatBuffers(You should find the FlatBuffers.csproj file here and run the command - dotnet build -f net46 "FlatBuffers.csproj"
+* flatbuffers needs to be compiled first for c# (Decoder). To compile the library for c#, Change the path to deps\flatbuffers\net\FlatBuffers(You should find the FlatBuffers.csproj file here and run the command - 
+    ```dotnet build -f net46 "FlatBuffers.csproj"```
 * If you want to compile the encoder then set FlatBufferEncoder as the Startup Project and build/compile.
 * Similarly if you want to compile the decoder then set FlatBufferDecoder as the Startup Project and build/compile.
 
