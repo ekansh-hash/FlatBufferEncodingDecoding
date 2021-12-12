@@ -31,3 +31,8 @@ There are few prerequistes for compiling/building the application :
 
 The executable for the encoder and the decoder can be found in the Binaries folder at the root of the repository.
 The Decoder executable is paired with the FlatBuffers.dll so make sure that the dll file is available in the same directory as the executable.
+
+
+## Schema
+
+You can find the schema file (Schema.fbs) under the Schema folder in the root of the repository.
