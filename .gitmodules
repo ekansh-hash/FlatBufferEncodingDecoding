@@ -1,4 +1,4 @@
 
-[submodule "FlatBufferEncodingDecoding/deps/flatbuffers"]
-	path = FlatBufferEncodingDecoding/deps/flatbuffers
+[submodule "deps/flatbuffers"]
+	path = deps/flatbuffers
 	url = https://github.com/google/flatbuffers

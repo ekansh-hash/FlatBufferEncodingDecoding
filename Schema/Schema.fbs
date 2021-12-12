@@ -1,6 +1,11 @@
-namespace Client.Data;
-enum BinaryGender : byte { Male = 0, Female = 1}
+namespace Data;
 
+enum BinaryGender : byte { Male = 0, Female = 1}
+union ClientType {Person,Group}
+
+table Client{
+	clientused:ClientType;
+}
 table Person
 {
 	name:string;
