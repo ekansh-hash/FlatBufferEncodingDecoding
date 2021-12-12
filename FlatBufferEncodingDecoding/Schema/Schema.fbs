@@ -1,0 +1,19 @@
+namespace Client.Data;
+enum BinaryGender : byte { Male = 0, Female = 1}
+
+table Person
+{
+	name:string;
+	age:short;
+	weight:float;
+	gender:BinaryGender;
+}
+table Group
+{
+	name:string;
+	average:float;
+	averageweight:float;
+	names:[string];
+}
+
+root_type Client;
