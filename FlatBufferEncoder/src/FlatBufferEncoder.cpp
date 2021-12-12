@@ -9,6 +9,7 @@ int main()
 	std::cout << "Press 1 to encode client as person : Press any other key to encode client as group ";
 	char input = getchar();
 	flatbuffers::FlatBufferBuilder builder(1024);
+
 	if (input == 49)
 	{
 		auto personname = builder.CreateString("Ram");
